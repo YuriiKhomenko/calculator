@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <section>
+        <h1>Calculator</h1>
+        <input type="text" class="input" readonly>
+        <div class="wrapper">
+            <button class="last special ac" type="button" value="ac">AC</button>
+            <button class="last numeric" type="button" value="(">(</button>
+            <button class="last numeric" type="button" value=")">)</button>
+            <button class="last numeric" type="button" value="*">*</button>
+        </div>
+        <div class="wrapper">
+            <button type="button" value="7" class="numeric">7</button>
+            <button type="button" value="8" class="numeric">8</button>
+            <button type="button" value="9" class="numeric">9</button>
+            <button class="last numeric" type="button" value="-">-</button>
+        </div>
+        <div class="wrapper">
+            <button type="button" value="4" class="numeric">4</button>
+            <button type="button" value="5" class="numeric">5</button>
+            <button type="button" value="6" class="numeric">6</button>
+            <button class="last numeric" type="button" value="+">+</button>
+        </div>
+        <div class="wrapper">
+            <button type="button" value="1" class="numeric">1</button>
+            <button type="button" value="2" class="numeric">2</button>
+            <button type="button" value="3" class="numeric">3</button>
+            <button class="last numeric" type="button" value="/">/</button>
+        </div>
+        <div class="wrapper">
+            <button type="button" value="del" class="delete">Del</button>
+            <button type="button" value="0" class="numeric">0</button>
+            <button type="button" value="." class="numeric">.</button>
+            <button type="button" class="equals special">=</button>
+        </div>
+    </section>
+    <script src="js/calc.js"></script>
+</body>
+
+</html>
